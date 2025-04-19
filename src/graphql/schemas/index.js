@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express');
+const { gql } = require('graphql-tag');
 const employeTypeDefs = require('./employe');
 const conseillerRHTypeDefs = require('./conseillerRH');
 const dossierEmployeTypeDefs = require('./dossierEmploye');
